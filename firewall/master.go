@@ -56,7 +56,6 @@ var defaultDeciders = []deciderFn{
 	checkFilterLists,
 	checkCustomFilterList,
 	checkPlugins,
-	dropInbound,
 	checkDomainHeuristics,
 	checkAutoPermitRelated,
 }
