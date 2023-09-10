@@ -3,9 +3,9 @@ package interception
 import (
 	"flag"
 
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/network/packet"
 )
 
 var (

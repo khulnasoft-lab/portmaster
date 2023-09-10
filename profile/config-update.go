@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/intel/filterlists"
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/intel/filterlists"
-	"github.com/safing/portmaster/profile/endpoints"
 )
 
 var (

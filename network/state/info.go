@@ -3,9 +3,9 @@ package state
 import (
 	"sync"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 	"github.com/safing/portbase/database/record"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/socket"
 )
 
 // Info holds network state information as provided by the system.

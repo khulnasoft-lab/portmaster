@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/khulnasoft-lab/portmaster/process"
 	"github.com/safing/portbase/database"
 	"github.com/safing/portbase/database/iterator"
 	"github.com/safing/portbase/database/query"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/database/storage"
-	"github.com/safing/portmaster/process"
 )
 
 const (

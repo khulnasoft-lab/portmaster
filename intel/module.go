@@ -1,8 +1,8 @@
 package intel
 
 import (
+	_ "github.com/khulnasoft-lab/portmaster/intel/customlists"
 	"github.com/safing/portbase/modules"
-	_ "github.com/safing/portmaster/intel/customlists"
 )
 
 // Module of this package. Export needed for testing of the endpoints package.

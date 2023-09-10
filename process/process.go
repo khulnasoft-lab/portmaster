@@ -13,9 +13,9 @@ import (
 	processInfo "github.com/shirou/gopsutil/process"
 	"golang.org/x/sync/singleflight"
 
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/profile"
 )
 
 const onLinux = runtime.GOOS == "linux"

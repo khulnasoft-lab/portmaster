@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 // Endpoints is a list of permitted or denied endpoints.

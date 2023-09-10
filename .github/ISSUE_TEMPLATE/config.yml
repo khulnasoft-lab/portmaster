@@ -4,15 +4,15 @@ blank_issues_enabled: true  # default: true
 contact_links:
 
 # - name: "🛠 Create Issue for Portmaster"
-#   url: https://github.com/safing/portmaster/issues/new/choose
+#   url: https://github.com/khulnasoft-lab/portmaster/issues/new/choose
 #   about: "Create issue related to the main application"
 
 - name: "🎨 Create Issue for User Interface"
-  url: https://github.com/safing/portmaster-ui/issues/new/choose
+  url: https://github.com/khulnasoft-lab/portmaster-ui/issues/new/choose
   about: "Create issue for everything connected to the Portmaster's User Interface"
 
 - name: "📦 Create Issue for Packaging & Installers"
-  url: https://github.com/safing/portmaster-packaging/issues/new/choose
+  url: https://github.com/khulnasoft-lab/portmaster-packaging/issues/new/choose
   about: "Create issue for things related to Portmaster's installers, packaging and distribution"
 
 - name: "Contribution Guideline"

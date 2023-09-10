@@ -12,13 +12,13 @@ import (
 
 	"github.com/ghodss/yaml"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/database"
 	"github.com/safing/portbase/database/accessor"
 	"github.com/safing/portbase/database/query"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/updates"
 )
 
 const (

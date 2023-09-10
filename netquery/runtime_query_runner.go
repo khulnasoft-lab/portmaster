@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/khulnasoft-lab/portmaster/netquery/orm"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/formats/dsd"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/runtime"
-	"github.com/safing/portmaster/netquery/orm"
 )
 
 // RuntimeQueryRunner provides a simple interface for the runtime database

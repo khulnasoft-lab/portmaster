@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 // EndpointLists matches endpoint lists.

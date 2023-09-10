@@ -7,7 +7,7 @@
 //	import (
 //		"testing"
 //
-//		"github.com/safing/portmaster/core/pmtesting"
+//		"github.com/khulnasoft-lab/portmaster/core/pmtesting"
 //	)
 //
 //	func TestMain(m *testing.M) {
@@ -23,11 +23,11 @@ import (
 	"runtime/pprof"
 	"testing"
 
+	"github.com/khulnasoft-lab/portmaster/core/base"
 	_ "github.com/safing/portbase/database/storage/hashmap"
 	"github.com/safing/portbase/dataroot"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/core/base"
 )
 
 var printStackOnExit bool

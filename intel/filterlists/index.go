@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/database"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/formats/dsd"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/updater"
-	"github.com/safing/portmaster/updates"
 )
 
 // the following definitions are copied from the intelhub repository

@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 func TestDebugInfoLineFormatting(t *testing.T) {

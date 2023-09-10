@@ -11,11 +11,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/database"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/updater"
-	"github.com/safing/portmaster/updates"
 )
 
 const (

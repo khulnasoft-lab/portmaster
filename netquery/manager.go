@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/formats/dsd"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/runtime"
-	"github.com/safing/portmaster/network"
 )
 
 type (

@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
 )
 
 const (

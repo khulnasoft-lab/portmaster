@@ -3,8 +3,8 @@ package inspection
 import (
 	"sync"
 
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 )
 
 //nolint:golint,stylecheck // FIXME

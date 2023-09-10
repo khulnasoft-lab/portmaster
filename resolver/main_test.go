@@ -3,7 +3,7 @@ package resolver
 import (
 	"testing"
 
-	"github.com/safing/portmaster/core/pmtesting"
+	"github.com/khulnasoft-lab/portmaster/core/pmtesting"
 )
 
 var domainFeed = make(chan string)

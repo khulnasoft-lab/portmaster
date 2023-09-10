@@ -12,13 +12,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/safing/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/process"
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
 )
 
 const (

@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/safing/portmaster/compat"
-	"github.com/safing/portmaster/nameserver/nsutil"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/profile/endpoints"
+	"github.com/khulnasoft-lab/portmaster/compat"
+	"github.com/khulnasoft-lab/portmaster/nameserver/nsutil"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
 )
 
 var resolverFilterLists = []string{"17-DNS"}

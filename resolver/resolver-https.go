@@ -13,8 +13,8 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/netenv"
 )
 
 // HTTPSResolver is a resolver using just a single tcp connection with pipelining.

@@ -1,10 +1,10 @@
 package network
 
 import (
+	"github.com/khulnasoft-lab/portmaster/process"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/metrics"
-	"github.com/safing/portmaster/process"
 )
 
 var (

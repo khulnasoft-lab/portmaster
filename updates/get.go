@@ -3,8 +3,8 @@ package updates
 import (
 	"path"
 
+	"github.com/khulnasoft-lab/portmaster/updates/helper"
 	"github.com/safing/portbase/updater"
-	"github.com/safing/portmaster/updates/helper"
 )
 
 // GetPlatformFile returns the latest platform specific file identified by the given identifier.

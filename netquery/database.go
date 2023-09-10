@@ -16,14 +16,14 @@ import (
 	"zombiezen.com/go/sqlite"
 	"zombiezen.com/go/sqlite/sqlitex"
 
+	"github.com/khulnasoft-lab/portmaster/netquery/orm"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/dataroot"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/netquery/orm"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/profile"
 )
 
 // InMemory is the "file path" to open a new in-memory database.

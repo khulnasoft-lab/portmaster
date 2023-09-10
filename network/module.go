@@ -1,9 +1,9 @@
 package network
 
 import (
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/state"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/state"
 )
 
 var (

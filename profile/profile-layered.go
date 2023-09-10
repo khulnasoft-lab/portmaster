@@ -5,13 +5,13 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
+	"github.com/khulnasoft-lab/portmaster/status"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/runtime"
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/profile/endpoints"
-	"github.com/safing/portmaster/status"
 )
 
 // LayeredProfile combines multiple Profiles.

@@ -10,11 +10,11 @@ import (
 
 	"golang.org/x/net/publicsuffix"
 
+	"github.com/khulnasoft-lab/portmaster/intel/filterlists"
+	"github.com/khulnasoft-lab/portmaster/intel/geoip"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/status"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/intel/filterlists"
-	"github.com/safing/portmaster/intel/geoip"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/status"
 )
 
 // Entity describes a remote endpoint in many different ways.

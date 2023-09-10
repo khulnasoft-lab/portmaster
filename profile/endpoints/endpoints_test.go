@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/safing/portmaster/core/pmtesting"
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/core/pmtesting"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 func TestMain(m *testing.M) {

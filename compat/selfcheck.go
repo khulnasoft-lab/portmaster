@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/rng"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/resolver"
 )
 
 var (

@@ -1,9 +1,10 @@
 package netenv
 
 import (
-	"github.com/safing/portmaster-android/go/app_interface"
 	"net"
 	"time"
+
+	"github.com/safing/portmaster-android/go/app_interface"
 )
 
 var (

@@ -10,10 +10,10 @@ import (
 	"github.com/coreos/go-iptables/iptables"
 	"github.com/hashicorp/go-multierror"
 
+	"github.com/khulnasoft-lab/portmaster/firewall/interception/nfq"
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/firewall/interception/nfq"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/packet"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/nameserver/nsutil"
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/nameserver/nsutil"
-	"github.com/safing/portmaster/netenv"
 )
 
 // RRCache is a single-use structure to hold a DNS response.

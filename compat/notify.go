@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/process"
-	"github.com/safing/portmaster/profile"
 )
 
 type baseIssue struct {

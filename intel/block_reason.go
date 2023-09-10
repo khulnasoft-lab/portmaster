@@ -8,8 +8,8 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/nameserver/nsutil"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/nameserver/nsutil"
 )
 
 // ListMatch represents an entity that has been

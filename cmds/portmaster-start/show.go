@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/safing/portmaster/updates/helper"
+	"github.com/khulnasoft-lab/portmaster/updates/helper"
 )
 
 func init() {

@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package main
@@ -10,9 +11,9 @@ import (
 	"path/filepath"
 	"syscall"
 
+	"github.com/khulnasoft-lab/portmaster/firewall/interception/windowskext"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/firewall/interception/windowskext"
-	"github.com/safing/portmaster/network/packet"
 )
 
 var (

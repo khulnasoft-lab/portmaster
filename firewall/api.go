@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/dataroot"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/utils"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/process"
-	"github.com/safing/portmaster/updates"
 )
 
 const (

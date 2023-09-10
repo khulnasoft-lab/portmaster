@@ -5,7 +5,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/safing/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 )
 
 var errInvalidIP = errors.New("invalid IP address")

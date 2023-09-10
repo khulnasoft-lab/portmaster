@@ -14,6 +14,7 @@ import (
 	processInfo "github.com/shirou/gopsutil/process"
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/updates/helper"
 	"github.com/safing/portbase/dataroot"
 	"github.com/safing/portbase/info"
 	"github.com/safing/portbase/log"
@@ -21,7 +22,6 @@ import (
 	"github.com/safing/portbase/rng"
 	"github.com/safing/portbase/updater"
 	"github.com/safing/portbase/utils/renameio"
-	"github.com/safing/portmaster/updates/helper"
 )
 
 const (

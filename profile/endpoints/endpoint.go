@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/network/reference"
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/network/reference"
 )
 
 // Endpoint describes an Endpoint Matcher.

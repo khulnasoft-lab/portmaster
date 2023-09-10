@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network/state"
+	"github.com/khulnasoft-lab/portmaster/process"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/network/state"
-	"github.com/safing/portmaster/process"
 )
 
 const (

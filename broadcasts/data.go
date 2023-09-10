@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/intel/geoip"
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/config"
-	"github.com/safing/portmaster/intel/geoip"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/updates"
 	"github.com/safing/spn/access"
 	"github.com/safing/spn/access/account"
 	"github.com/safing/spn/captain"

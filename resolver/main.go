@@ -10,13 +10,13 @@ import (
 
 	"github.com/tevino/abool"
 
+	_ "github.com/khulnasoft-lab/portmaster/core/base"
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/notifications"
 	"github.com/safing/portbase/utils/debug"
-	_ "github.com/safing/portmaster/core/base"
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/netenv"
 )
 
 var module *modules.Module
@@ -147,7 +147,7 @@ func notifyAboutFailingResolvers(err error) {
 		EventID:      "resolver:all-configured-resolvers-failed",
 		Type:         notifications.Error,
 		Title:        "Detected DNS Compatibility Issue",
-		Message:      "Portmaster detected that something is interfering with its Secure DNS resolver. This could be a firewall or another secure DNS resolver software. Please check if you are running incompatible [software](https://docs.safing.io/portmaster/install/status/software-compatibility). Otherwise, please report the issue via [GitHub](https://github.com/safing/portmaster/issues) or send a mail to [support@safing.io](mailto:support@safing.io) so we can help you out.",
+		Message:      "Portmaster detected that something is interfering with its Secure DNS resolver. This could be a firewall or another secure DNS resolver software. Please check if you are running incompatible [software](https://docs.safing.io/portmaster/install/status/software-compatibility). Otherwise, please report the issue via [GitHub](https://github.com/khulnasoft-lab/portmaster/issues) or send a mail to [support@safing.io](mailto:support@safing.io) so we can help you out.",
 		ShowOnSystem: true,
 	}
 	notifications.Notify(n)

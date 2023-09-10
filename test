@@ -172,7 +172,7 @@ echo "running tests for ${platformInfo//$'\n'/ }:"
 
 # run vet/test on packages
 for package in $packages; do
-  packagename=${package#github.com/safing/portmaster} #TODO: could be queried with `go list .`
+  packagename=${package#github.com/khulnasoft-lab/portmaster} #TODO: could be queried with `go list .`
   packagename=${packagename#/}
   echo ""
   echo $package

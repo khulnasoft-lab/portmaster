@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/status"
 	"github.com/safing/portbase/config"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/status"
 )
 
 // Configuration Keys.
@@ -23,7 +23,7 @@ var (
 
 		// We encourage everyone who has the technical abilities to set their own preferred servers.
 		// For a list of configuration options, see
-		// https://github.com/safing/portmaster/wiki/DNS-Server-Settings
+		// https://github.com/khulnasoft-lab/portmaster/wiki/DNS-Server-Settings
 
 		// Quad9 (encrypted DNS)
 		// "dot://dns.quad9.net?ip=9.9.9.9&name=Quad9&blockedif=empty",

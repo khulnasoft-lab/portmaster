@@ -11,13 +11,13 @@ import (
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/intel/filterlists"
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/utils"
 	"github.com/safing/portbase/utils/osdetail"
-	"github.com/safing/portmaster/intel/filterlists"
-	"github.com/safing/portmaster/profile/endpoints"
 )
 
 // profileSource is the source of the profile.

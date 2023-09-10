@@ -1,8 +1,8 @@
 package tags
 
 import (
-	"github.com/safing/portmaster/process"
-	"github.com/safing/portmaster/profile"
+	"github.com/khulnasoft-lab/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/profile"
 )
 
 func init() {

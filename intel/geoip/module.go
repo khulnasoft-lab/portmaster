@@ -3,9 +3,9 @@ package geoip
 import (
 	"context"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/updates"
 )
 
 var module *modules.Module

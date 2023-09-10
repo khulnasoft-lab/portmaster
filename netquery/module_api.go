@@ -8,6 +8,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
+	"github.com/khulnasoft-lab/portmaster/network"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/database"
@@ -16,7 +17,6 @@ import (
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/modules/subsystems"
 	"github.com/safing/portbase/runtime"
-	"github.com/safing/portmaster/network"
 )
 
 // DefaultModule is the default netquery module.

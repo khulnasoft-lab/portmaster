@@ -5,9 +5,9 @@ import (
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/updates/helper"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/updates/helper"
 )
 
 const cfgDevModeKey = "core/devMode"

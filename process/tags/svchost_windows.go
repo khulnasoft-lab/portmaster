@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/khulnasoft-lab/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/utils/osdetail"
-	"github.com/safing/portmaster/process"
-	"github.com/safing/portmaster/profile"
 )
 
 func init() {

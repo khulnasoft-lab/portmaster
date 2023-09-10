@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/network/socket"
 )
 
 type udpTable struct {

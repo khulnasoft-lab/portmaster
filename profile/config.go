@@ -3,9 +3,9 @@ package profile
 import (
 	"strings"
 
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
+	"github.com/khulnasoft-lab/portmaster/status"
 	"github.com/safing/portbase/config"
-	"github.com/safing/portmaster/profile/endpoints"
-	"github.com/safing/portmaster/status"
 	"github.com/safing/spn/access/account"
 )
 

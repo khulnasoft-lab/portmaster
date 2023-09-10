@@ -3,7 +3,7 @@ package endpoints
 import (
 	"context"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 // EndpointAny matches anything.

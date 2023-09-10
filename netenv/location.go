@@ -12,11 +12,11 @@ import (
 	"golang.org/x/net/icmp"
 	"golang.org/x/net/ipv4"
 
+	"github.com/khulnasoft-lab/portmaster/intel/geoip"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/rng"
-	"github.com/safing/portmaster/intel/geoip"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/network/packet"
 )
 
 var (

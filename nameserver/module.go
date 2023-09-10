@@ -10,13 +10,13 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/compat"
+	"github.com/khulnasoft-lab/portmaster/firewall"
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/modules/subsystems"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/compat"
-	"github.com/safing/portmaster/firewall"
-	"github.com/safing/portmaster/netenv"
 )
 
 var (

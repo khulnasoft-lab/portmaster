@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 // EndpointIP matches IPs.
