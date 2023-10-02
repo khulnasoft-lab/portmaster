@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 var (

@@ -6,8 +6,8 @@ package state
 import (
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 	"github.com/safing/portbase/config"
-	"github.com/safing/portmaster/network/socket"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/resolver"
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 )
 
 var (

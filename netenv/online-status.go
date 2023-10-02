@@ -13,10 +13,10 @@ import (
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/updates"
 )
 
 // OnlineStatus represent a state of connectivity to the Internet.

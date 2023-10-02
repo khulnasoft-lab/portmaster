@@ -8,16 +8,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/state"
+	"github.com/khulnasoft-lab/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/resolver"
+	"github.com/khulnasoft-lab/portmaster/status"
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/database/query"
 	"github.com/safing/portbase/utils/debug"
-	"github.com/safing/portmaster/compat"
-	"github.com/safing/portmaster/network/state"
-	"github.com/safing/portmaster/process"
-	"github.com/safing/portmaster/resolver"
-	"github.com/safing/portmaster/status"
-	"github.com/safing/portmaster/updates"
 )
 
 func registerAPIEndpoints() error {
@@ -99,7 +98,7 @@ func debugInfo(ar *api.Request) (data []byte, err error) {
 
 	// Detailed information.
 	updates.AddToDebugInfo(di)
-	compat.AddToDebugInfo(di)
+	// compat.AddToDebugInfo(di) // TODO: Cannot use due to interception import requirement which we don't want for SPN Hubs.
 	di.AddGoroutineStack()
 
 	// Return data.

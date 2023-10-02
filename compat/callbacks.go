@@ -3,8 +3,8 @@ package compat
 import (
 	"net"
 
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/process"
 )
 
 // SubmitSystemIntegrationCheckPacket submit a packet for the system integrity check.

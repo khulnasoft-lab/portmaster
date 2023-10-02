@@ -14,8 +14,8 @@ import (
 	"github.com/cilium/ebpf/ringbuf"
 	"github.com/cilium/ebpf/rlimit"
 
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/packet"
 )
 
 //go:generate go run github.com/cilium/ebpf/cmd/bpf2go -cc clang -cflags "-O2 -g -Wall -Werror" -type Event bpf ../programs/monitor.c

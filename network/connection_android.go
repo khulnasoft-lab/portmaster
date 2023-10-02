@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/process"
 	"github.com/safing/spn/navigator"
 	"github.com/tevino/abool"
 )
@@ -27,11 +27,11 @@ func NewDefaultConnection(localIP net.IP, localPort uint16, remoteIP net.IP, rem
 		LocalIPScope: netutils.Global,
 		LocalPort:    localPort,
 		PID:          process.UnidentifiedProcessID,
-		Entity: &intel.Entity{
-			Protocol: uint8(protocol),
+		Entity: (&intel.Entity{
 			IP:       remoteIP,
+			Protocol: uint8(protocol),
 			Port:     remotePort,
-		},
+		}).Init(0),
 		Resolver:         nil,
 		Started:          time.Now().Unix(),
 		VerdictPermanent: false,

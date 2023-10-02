@@ -3,8 +3,8 @@ package state
 import (
 	"time"
 
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/network/socket"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 )
 
 const (

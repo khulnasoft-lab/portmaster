@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/profile"
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/profile"
-	"github.com/safing/portmaster/profile/endpoints"
 )
 
 const (

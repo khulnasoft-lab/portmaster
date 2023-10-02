@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/netutils"
 )
 
 // GetAssignedAddresses returns the assigned IPv4 and IPv6 addresses of the host.

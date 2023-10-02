@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/safing/portmaster/profile"
+	"github.com/khulnasoft-lab/portmaster/profile"
 )
 
 var (

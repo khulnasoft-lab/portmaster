@@ -10,11 +10,11 @@ import (
 	"github.com/miekg/dns"
 	"golang.org/x/exp/slices"
 
+	"github.com/khulnasoft-lab/portmaster/nameserver/nsutil"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/process"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/nameserver/nsutil"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/process"
-	"github.com/safing/portmaster/resolver"
 )
 
 var (

@@ -3,8 +3,8 @@ package profile
 import (
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/status"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/status"
 )
 
 const (

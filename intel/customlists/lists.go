@@ -10,9 +10,9 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/network/netutils"
 )
 
 var (

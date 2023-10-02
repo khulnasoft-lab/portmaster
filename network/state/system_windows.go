@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/safing/portmaster/network/iphelper"
-	"github.com/safing/portmaster/network/socket"
+	"github.com/khulnasoft-lab/portmaster/network/iphelper"
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 )
 
 var (

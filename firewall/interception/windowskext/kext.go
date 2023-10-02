@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"unsafe"
 
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
 	"golang.org/x/sys/windows"
 )
 

@@ -8,9 +8,9 @@ import (
 
 	ct "github.com/florianl/go-conntrack"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network"
 )
 
 var nfct *ct.Nfct // Conntrack handler. NFCT: Network Filter Connection Tracking.

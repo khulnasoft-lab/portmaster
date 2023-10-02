@@ -13,11 +13,11 @@ import (
 
 	"github.com/spkg/zipfs"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/updater"
-	"github.com/safing/portmaster/updates"
 )
 
 var (

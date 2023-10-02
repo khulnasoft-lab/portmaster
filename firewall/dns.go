@@ -8,13 +8,13 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/profile"
+	"github.com/khulnasoft-lab/portmaster/profile/endpoints"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 	"github.com/safing/portbase/database"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/profile"
-	"github.com/safing/portmaster/profile/endpoints"
-	"github.com/safing/portmaster/resolver"
 )
 
 func filterDNSSection(

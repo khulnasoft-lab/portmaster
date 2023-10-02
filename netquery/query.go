@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"zombiezen.com/go/sqlite"
 
-	"github.com/safing/portmaster/netquery/orm"
+	"github.com/khulnasoft-lab/portmaster/netquery/orm"
 )
 
 // DatabaseName is a database name constant.

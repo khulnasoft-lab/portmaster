@@ -3,9 +3,9 @@ package status
 import (
 	"fmt"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/runtime"
-	"github.com/safing/portmaster/netenv"
 )
 
 var pushUpdate runtime.PushFunc

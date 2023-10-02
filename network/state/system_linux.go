@@ -3,8 +3,8 @@ package state
 import (
 	"time"
 
-	"github.com/safing/portmaster/network/proc"
-	"github.com/safing/portmaster/network/socket"
+	"github.com/khulnasoft-lab/portmaster/network/proc"
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 )
 
 var (

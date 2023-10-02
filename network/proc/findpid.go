@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/socket"
 )
 
 var (

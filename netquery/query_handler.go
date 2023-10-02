@@ -14,8 +14,8 @@ import (
 
 	"golang.org/x/exp/slices"
 
+	"github.com/khulnasoft-lab/portmaster/netquery/orm"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/netquery/orm"
 )
 
 var charOnlyRegexp = regexp.MustCompile("[a-zA-Z]+")

@@ -10,15 +10,15 @@ import (
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/process"
+	_ "github.com/khulnasoft-lab/portmaster/process/tags"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/intel"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/process"
-	_ "github.com/safing/portmaster/process/tags"
-	"github.com/safing/portmaster/resolver"
 	"github.com/safing/spn/access"
 	"github.com/safing/spn/access/account"
 	"github.com/safing/spn/navigator"
@@ -438,12 +438,12 @@ func (conn *Connection) GatherConnectionInfo(pkt packet.Packet) (err error) {
 	// Create remote entity.
 	if conn.Entity == nil {
 		// Remote
-		conn.Entity = &intel.Entity{
+		conn.Entity = (&intel.Entity{
+			IP:       pkt.Info().RemoteIP(),
 			Protocol: uint8(pkt.Info().Protocol),
 			Port:     pkt.Info().RemotePort(),
-		}
-		conn.Entity.SetIP(pkt.Info().RemoteIP())
-		conn.Entity.SetDstPort(pkt.Info().DstPort)
+		}).Init(pkt.Info().DstPort)
+
 		// Local
 		conn.SetLocalIP(pkt.Info().LocalIP())
 		conn.LocalPort = pkt.Info().LocalPort()

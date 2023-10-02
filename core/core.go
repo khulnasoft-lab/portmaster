@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
+	_ "github.com/khulnasoft-lab/portmaster/broadcasts"
+	_ "github.com/khulnasoft-lab/portmaster/netenv"
+	_ "github.com/khulnasoft-lab/portmaster/netquery"
+	_ "github.com/khulnasoft-lab/portmaster/status"
+	_ "github.com/khulnasoft-lab/portmaster/ui"
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/modules/subsystems"
-	_ "github.com/safing/portmaster/broadcasts"
-	_ "github.com/safing/portmaster/netenv"
-	_ "github.com/safing/portmaster/netquery"
-	_ "github.com/safing/portmaster/status"
-	_ "github.com/safing/portmaster/ui"
-	"github.com/safing/portmaster/updates"
 )
 
 const (

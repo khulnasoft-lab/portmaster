@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	bandwidth "github.com/safing/portmaster/firewall/interception/ebpf/bandwidth"
-	conn_listener "github.com/safing/portmaster/firewall/interception/ebpf/connection_listener"
-	"github.com/safing/portmaster/firewall/interception/nfq"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
+	bandwidth "github.com/khulnasoft-lab/portmaster/firewall/interception/ebpf/bandwidth"
+	conn_listener "github.com/khulnasoft-lab/portmaster/firewall/interception/ebpf/connection_listener"
+	"github.com/khulnasoft-lab/portmaster/firewall/interception/nfq"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 )
 
 // start starts the interception.

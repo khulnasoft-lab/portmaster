@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/resolver"
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 )
 
 type failingQuery struct {

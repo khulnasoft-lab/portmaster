@@ -3,8 +3,8 @@ package process
 import (
 	"os"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/updates"
 )
 
 var (

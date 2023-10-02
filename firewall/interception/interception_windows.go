@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/safing/portmaster/firewall/interception/windowskext"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/updates"
+	"github.com/khulnasoft-lab/portmaster/firewall/interception/windowskext"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/updates"
 )
 
 // start starts the interception.

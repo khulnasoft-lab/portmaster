@@ -6,10 +6,10 @@ import (
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/resolver"
 )
 
 var (

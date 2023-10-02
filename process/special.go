@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
+	"github.com/khulnasoft-lab/portmaster/network/socket"
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/socket"
-	"github.com/safing/portmaster/profile"
 )
 
 const (

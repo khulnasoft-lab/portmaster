@@ -6,8 +6,8 @@ import (
 
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/packet"
 )
 
 /*

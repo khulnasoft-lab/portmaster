@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/safing/portmaster/netquery/orm"
+	"github.com/khulnasoft-lab/portmaster/netquery/orm"
 )
 
 // ChartHandler handles requests for connection charts.

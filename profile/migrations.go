@@ -5,12 +5,12 @@ import (
 
 	"github.com/hashicorp/go-version"
 
+	"github.com/khulnasoft-lab/portmaster/status"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/database"
 	"github.com/safing/portbase/database/migration"
 	"github.com/safing/portbase/database/query"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/status"
 )
 
 func registerMigrations() error {

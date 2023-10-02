@@ -12,8 +12,8 @@ import (
 	"github.com/miekg/dns"
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/netenv"
 )
 
 const (

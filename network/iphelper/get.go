@@ -5,7 +5,7 @@ package iphelper
 import (
 	"sync"
 
-	"github.com/safing/portmaster/network/socket"
+	"github.com/khulnasoft-lab/portmaster/network/socket"
 )
 
 var (

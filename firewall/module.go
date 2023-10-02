@@ -3,11 +3,11 @@ package firewall
 import (
 	"context"
 
+	_ "github.com/khulnasoft-lab/portmaster/core"
+	"github.com/khulnasoft-lab/portmaster/network"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/modules/subsystems"
-	_ "github.com/safing/portmaster/core"
-	"github.com/safing/portmaster/network"
 	"github.com/safing/spn/access"
 )
 

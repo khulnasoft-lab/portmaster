@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/modules"
 	"github.com/safing/portbase/utils/debug"
-	"github.com/safing/portmaster/netenv"
 )
 
 var module *modules.Module

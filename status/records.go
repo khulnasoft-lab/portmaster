@@ -3,8 +3,8 @@ package status
 import (
 	"sync"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
 	"github.com/safing/portbase/database/record"
-	"github.com/safing/portmaster/netenv"
 )
 
 // SystemStatusRecord describes the overall status of the Portmaster.

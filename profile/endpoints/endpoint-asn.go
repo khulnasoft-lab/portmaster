@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/safing/portmaster/intel"
+	"github.com/khulnasoft-lab/portmaster/intel"
 )
 
 var asnRegex = regexp.MustCompile("^(AS)?[0-9]+$")

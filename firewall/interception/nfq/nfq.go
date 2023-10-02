@@ -14,9 +14,9 @@ import (
 	"github.com/tevino/abool"
 	"golang.org/x/sys/unix"
 
+	pmpacket "github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/process"
 	"github.com/safing/portbase/log"
-	pmpacket "github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/process"
 )
 
 // Queue wraps a nfqueue.

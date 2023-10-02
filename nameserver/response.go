@@ -6,8 +6,8 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/nameserver/nsutil"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/nameserver/nsutil"
 )
 
 // sendResponse sends a response to query using w. The response message is

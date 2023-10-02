@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/profile"
 )
 
 var ownPID = os.Getpid()

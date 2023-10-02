@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/khulnasoft-lab/portmaster/updates/helper"
 	"github.com/safing/portbase/database/record"
 	"github.com/safing/portbase/info"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/updater"
 	"github.com/safing/portbase/utils/debug"
-	"github.com/safing/portmaster/updates/helper"
 )
 
 const (

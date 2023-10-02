@@ -11,11 +11,11 @@ import (
 
 	"github.com/spf13/cobra"
 
+	"github.com/khulnasoft-lab/portmaster/updates/helper"
 	"github.com/safing/jess"
 	"github.com/safing/jess/filesig"
 	portlog "github.com/safing/portbase/log"
 	"github.com/safing/portbase/updater"
-	"github.com/safing/portmaster/updates/helper"
 )
 
 var (

@@ -3,11 +3,11 @@ package profile
 import (
 	"os"
 
+	_ "github.com/khulnasoft-lab/portmaster/core/base"
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/database/migration"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/modules"
-	_ "github.com/safing/portmaster/core/base"
-	"github.com/safing/portmaster/updates"
 )
 
 var (

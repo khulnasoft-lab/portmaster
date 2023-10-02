@@ -4,8 +4,8 @@ import (
 	"flag"
 	"runtime"
 
+	"github.com/khulnasoft-lab/portmaster/core"
 	"github.com/safing/portbase/config"
-	"github.com/safing/portmaster/core"
 )
 
 // CfgDefaultNameserverAddressKey is the config key for the listen address..

@@ -8,9 +8,9 @@ import (
 
 	maxminddb "github.com/oschwald/maxminddb-golang"
 
+	"github.com/khulnasoft-lab/portmaster/updates"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/updater"
-	"github.com/safing/portmaster/updates"
 )
 
 var worker *updateWorker

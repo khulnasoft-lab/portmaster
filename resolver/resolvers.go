@@ -13,10 +13,10 @@ import (
 	"github.com/miekg/dns"
 	"golang.org/x/net/publicsuffix"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
 	"github.com/safing/portbase/log"
 	"github.com/safing/portbase/utils"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/netutils"
 )
 
 const maxSearchDomains = 100

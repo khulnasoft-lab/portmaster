@@ -10,8 +10,8 @@ import (
 	"github.com/florianl/go-nfqueue"
 	"github.com/tevino/abool"
 
+	pmpacket "github.com/khulnasoft-lab/portmaster/network/packet"
 	"github.com/safing/portbase/log"
-	pmpacket "github.com/safing/portmaster/network/packet"
 )
 
 // Firewalling marks used by the Portmaster.

@@ -10,9 +10,9 @@ import (
 	"github.com/miekg/dns"
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
 	"github.com/safing/portbase/utils"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network/netutils"
 )
 
 // DNS Resolver Attributes.

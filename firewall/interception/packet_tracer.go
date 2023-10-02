@@ -3,7 +3,7 @@ package interception
 import (
 	"time"
 
-	"github.com/safing/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
 )
 
 type tracedPacket struct {

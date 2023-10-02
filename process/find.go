@@ -6,12 +6,12 @@ import (
 	"net"
 	"time"
 
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/packet"
+	"github.com/khulnasoft-lab/portmaster/network/state"
+	"github.com/khulnasoft-lab/portmaster/profile"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/network/packet"
-	"github.com/safing/portmaster/network/state"
-	"github.com/safing/portmaster/profile"
 )
 
 // GetProcessWithProfile returns the process, including the profile.
@@ -115,7 +115,7 @@ func GetNetworkHost(ctx context.Context, remoteIP net.IP) (process *Process, err
 // GetProcessByRequestOrigin returns the process that initiated the API request ar.
 func GetProcessByRequestOrigin(ar *api.Request) (*Process, error) {
 	// get remote IP/Port
-	remoteIP, remotePort, err := netutils.ParseHostPort(ar.RemoteAddr)
+	remoteIP, remotePort, err := netutils.ParseIPPort(ar.RemoteAddr)
 	if err != nil {
 		return nil, fmt.Errorf("failed to get remote IP/Port: %w", err)
 	}

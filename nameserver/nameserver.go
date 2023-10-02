@@ -10,13 +10,13 @@ import (
 
 	"github.com/miekg/dns"
 
+	"github.com/khulnasoft-lab/portmaster/firewall"
+	"github.com/khulnasoft-lab/portmaster/nameserver/nsutil"
+	"github.com/khulnasoft-lab/portmaster/netenv"
+	"github.com/khulnasoft-lab/portmaster/network"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/resolver"
 	"github.com/safing/portbase/log"
-	"github.com/safing/portmaster/firewall"
-	"github.com/safing/portmaster/nameserver/nsutil"
-	"github.com/safing/portmaster/netenv"
-	"github.com/safing/portmaster/network"
-	"github.com/safing/portmaster/network/netutils"
-	"github.com/safing/portmaster/resolver"
 )
 
 var hostname string
@@ -83,6 +83,9 @@ func handleRequest(ctx context.Context, w dns.ResponseWriter, request *dns.Msg) 
 	ctx, tracer := log.AddTracer(ctx)
 	defer tracer.Submit()
 	tracer.Tracef("nameserver: handling new request for %s from %s:%d", q.ID(), remoteAddr.IP, remoteAddr.Port)
+
+	// Count request.
+	totalHandledRequests.Inc()
 
 	// Setup quick reply function.
 	reply := func(responder nsutil.Responder, rrProviders ...nsutil.RRProvider) error {

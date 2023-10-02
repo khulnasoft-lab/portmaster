@@ -3,10 +3,10 @@ package firewall
 import (
 	"github.com/tevino/abool"
 
+	"github.com/khulnasoft-lab/portmaster/core"
 	"github.com/safing/portbase/api"
 	"github.com/safing/portbase/config"
 	"github.com/safing/portbase/notifications"
-	"github.com/safing/portmaster/core"
 	"github.com/safing/spn/captain"
 )
 

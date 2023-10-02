@@ -3,7 +3,7 @@ package network
 import (
 	"net"
 
-	"github.com/safing/portmaster/network/netutils"
+	"github.com/khulnasoft-lab/portmaster/network/netutils"
 )
 
 // GetMulticastRequestConn searches for and returns the requesting connnection
